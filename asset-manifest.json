@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Data_Extraction_System/static/css/main.cacf475b.css",
+    "main.js": "/Data_Extraction_System/static/js/main.fae2815e.js",
+    "static/js/488.e75445ad.chunk.js": "/Data_Extraction_System/static/js/488.e75445ad.chunk.js",
+    "index.html": "/Data_Extraction_System/index.html",
+    "main.cacf475b.css.map": "/Data_Extraction_System/static/css/main.cacf475b.css.map",
+    "main.fae2815e.js.map": "/Data_Extraction_System/static/js/main.fae2815e.js.map",
+    "488.e75445ad.chunk.js.map": "/Data_Extraction_System/static/js/488.e75445ad.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cacf475b.css",
+    "static/js/main.fae2815e.js"
+  ]
+}
