@@ -1,0 +1,38 @@
+/* Styling for the CSV Download and View Buttons */
+.download-btn, .view-btn {
+  background-color: #4A90E2;
+  border: none;
+  padding: 12px 24px;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-container {
+  display: flex;
+  gap: 20px; /* Adjust space between buttons */
+  justify-content: center;
+  margin-top: 20px;
+  width: 100%; /* Ensure the container is wide enough */
+  text-align: center;
+}
+
+.button-container button {
+  padding: 12px 24px; /* Adjust padding for buttons */
+  font-size: 16px; /* Adjust font size */
+  margin: 0; /* Reset default button margin */
+  border-radius: 5px;
+}
+
+.button-container .download-btn:hover,
+.button-container .view-btn:hover {
+  background-color: #357ABD;
+}
+
+.button-container .download-btn:disabled,
+.button-container .view-btn:disabled {
+  background-color: #A0C1D1;
+  cursor: not-allowed;
+}

@@ -1,0 +1,123 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f7f6;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+}
+
+/* Header Section */
+.App-header {
+  background-color: #4A90E2;
+  color: white;
+  padding: 20px 0;
+  width: 100%;
+  font-size: 2.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.App-header h1 {
+  font-size: 3rem;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+/* Card Upload Section */
+.upload-section {
+  margin-top: 30px;
+  padding: 20px;
+  border: 2px dashed #4A90E2;
+  background-color: #fff;
+  border-radius: 10px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.upload-section:hover {
+  background-color: #e6f7ff;
+}
+
+.upload-section button {
+  background-color: #4A90E2;
+  border: none;
+  padding: 15px 30px;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.upload-section button:hover {
+  background-color: #357ABD;
+}
+
+/* Card Data Display Section */
+.card-data-section {
+  margin-top: 30px;
+  padding: 20px;
+  width: 80%;
+  max-width: 800px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card-data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.card-data-table th, .card-data-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.card-data-table th {
+  background-color: #4A90E2;
+  color: white;
+}
+
+/* CSV Download Section */
+.download-section {
+  margin-top: 30px;
+}
+
+.download-section button {
+  background-color: #28a745;
+  color: white;
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.download-section button:hover {
+  background-color: #218838;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .App {
+    margin: 10px;
+  }
+
+  .upload-section, .card-data-section, .download-section {
+    width: 100%;
+  }
+
+  .App-header h1 {
+    font-size: 2.5rem;
+  }
+}

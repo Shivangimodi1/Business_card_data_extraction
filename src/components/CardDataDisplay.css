@@ -1,0 +1,66 @@
+/* General Styling for Card Data Display */
+.card-data-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .card-title {
+    font-size: 1.8rem;
+    color: #4A90E2;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  .card-data-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .card-data-list li {
+    font-size: 1.1rem;
+    margin: 8px 0;
+    line-height: 1.6;
+  }
+  
+  .card-data-list strong {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Logo Image Styling */
+  .card-logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    margin-top: 10px;
+  }
+  
+  /* No Data Message */
+  .no-data-message {
+    font-size: 1.2rem;
+    color: #888;
+    text-align: center;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .card-data-container {
+      width: 90%;
+      padding: 15px;
+    }
+  
+    .card-title {
+      font-size: 1.5rem;
+    }
+  
+    .card-data-list li {
+      font-size: 1rem;
+    }
+  }
+  
