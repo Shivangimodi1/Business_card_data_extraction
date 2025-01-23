@@ -1,9 +1,10 @@
 import React from 'react';
+import config from '../config.js';
 
 const CSVDownload = () => {
   // Function to download the CSV file
   const downloadCSV = () => {
-    fetch('http://localhost:5000/download-csv')
+    fetch(`${config.BACKEND_URL}/download-csv`)
       .then((response) => {
         if (!response.ok) {
           throw new Error('Failed to download CSV');
@@ -26,7 +27,7 @@ const CSVDownload = () => {
 
   // Function to view the CSV file in a new tab
   const viewCSV = () => {
-    const csvUrl = 'http://localhost:5000/view-csv'; // URL for the CSV file (view route)
+    const csvUrl = `${config.BACKEND_URL}/view-csv`; // URL for the CSV file (view route)
     window.open(csvUrl, '_blank'); // Opens the CSV file in a new tab (without downloading)
   };
   
